@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100vw;
+    height: 64px;
+    padding: 16px;
+    background-color: black;
+
+    & img {
+        height: 170%;
+        width: auto;
+    }
+
+    & div {
+        display: flex;
+        gap: 8px;
+
+        & a {
+            text-decoration: none;
+            color: #EBEBEB;
+        }
+
+        & a:hover {
+            text-decoration: underline;
+        }
+    }
+}

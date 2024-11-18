@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #212529;
+}
+
+.container-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    color: #EBEBEB;
+
+    & img {
+        padding-top: 15px;
+        height: 15%;
+        width: auto;
+    }
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        color: #212529;
+
+        & div {
+            min-width: 280px;
+            width: 30%;
+            height: 40px;
+        }
+
+        & input::placeholder {
+            color: #212529;
+            opacity: 0.6;
+        }
+
+        & a {
+            text-decoration: none;
+            color: #EBEBEB;
+        }
+
+        & button {
+            margin: 30px 0px 10px 0px;
+            background-color: #F45B69;
+            border: none;
+        }
+
+        & button:hover {
+            background-color: #F45B69;
+            filter: brightness(1.2);
+        }
+    }
+}
+
+
+
+.ancora-login {
+    display: flex;
+    gap: 10px;
+    color: #EBEBEB;
+
+    & a {
+        text-decoration: none;
+        color: #1FB6FF;
+    }
+}

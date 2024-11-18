@@ -1,0 +1,19 @@
+.container-modal {
+    color: #EBEBEB;
+    background-color: #212529;
+
+    & h1 {
+        color: #1FB6FF;
+    }
+
+    & button {
+        background-color: #F45B69;
+        border-color: #F45B69;
+    }
+}
+
+.select-jogo {
+    width: fit-content;
+    background-color: #212529;
+    color: #EBEBEB;
+}
