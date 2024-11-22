@@ -25,7 +25,7 @@ function Cadastro() {
                 <div className="form">
                     <input type="password" className="form-control" placeholder="Senha" required/>
                 </div>
-                <button type="submit" className="btn btn-primary"><a href="/Login">Cadastrar</a></button>
+                <button type="submit" className="btn btn-primary"><a href="/projeto-fullStack/Login">Cadastrar</a></button>
             </form>
             <div className='ancora-login'>
                 <p>Já tem uma conta? </p>

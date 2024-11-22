@@ -15,7 +15,7 @@ function Login() {
                     <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
                         <label htmlFor="floatingPassword">Senha</label>
                 </div>
-                <button type="submit" className="btn btn-primary"><a href="/">Entrar</a></button>
+                <button type="submit" className="btn btn-primary"><a href="/projeto-fullStack/">Entrar</a></button>
             </form>
             <div className='ancora-cadastro'>
                 <p>Não tem uma conta? </p>
