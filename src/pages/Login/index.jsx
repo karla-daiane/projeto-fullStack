@@ -19,7 +19,7 @@ function Login() {
             </form>
             <div className='ancora-cadastro'>
                 <p>Não tem uma conta? </p>
-                <a href="/Cadastro">Cadastre-se</a>
+                <a href="/projeto-fullStack/Cadastro">Cadastre-se</a>
             </div>
         </div>
     );
