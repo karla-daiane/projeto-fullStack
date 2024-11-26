@@ -39,18 +39,22 @@ function Modal({textBtn}) {
                                 <p>Breve descrição do Jogo</p>
                             </div>
                             <div className="modal-footer">
-                                <button
+                                {/* <button
                                     type="button"
                                     className="btn btn-secondary"
                                     onClick={handleClose}>
                                     Fechar
-                                </button>
+                                </button> */}
                                 <select className="form-select select-jogo" aria-label="Default select example">
                                     <option selected disabled>Adicionar jogo</option>
                                     <option value="1">Jogando</option>
                                     <option value="2">Quero Jogar</option>
                                     <option value="3">Já Joguei</option>
                                 </select>
+                                <button
+                                    type="button" className="btn btn-secondary">
+                                    Confirmar
+                                </button>
                             </div>
                         </div>
                     </div>

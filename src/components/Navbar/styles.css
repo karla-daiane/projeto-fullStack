@@ -1,7 +1,9 @@
-#container-navbar {
-    color: chartreuse;
-}
+.navbar {
+    padding: 1%;
+    background: #212529;
 
-div {
-    color: #EBEBEB;
+    & .nav-link {
+        color: #1FB6FF;
+        font-weight: bold;
+    }
 }

@@ -1,5 +1,4 @@
 import Header from '../../components/Header';
-import Navbar from '../../components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
@@ -10,8 +9,7 @@ function Dashboard() {
       <Header />
 
       <div className='content-dashboard'>
-        
-      <Navbar />
+        <h1>Menu do Administrador</h1>
       </div>
     </div>
   );
